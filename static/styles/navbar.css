@@ -1,18 +1,25 @@
 /* Navbar container */
+.tag-line{
+    color: #007bff;
+    text-decoration: none;
+}
+
 .nav-bar {
     display: flex;
     justify-content: center;    
     background-color: #f8f9fa; 
     padding: 8px 0;           
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); 
-    border-radius: 5px;        
+    border-radius: 5px;
+    margin: auto;        
     margin-bottom: 20px;      
+    width: 50%;
 }
 
 .nav-bar a {
     color: #007bff;            
     text-decoration: none;    
-    font-size: 14px;           
+    font-size: 8px;           
     margin: 0 10px;             
     padding: 6px 12px;         
     border-radius: 4px;         
